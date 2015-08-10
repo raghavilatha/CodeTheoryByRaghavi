@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+<listeners>
+    <listener class-name="com.mcpayments.listener.TestsListenerAdapter" />
+</listeners>
+
+
+<test name="Test 1">
+    <classes>
+        <class name="com.mcpayments.testcases.VerifyMoto" ></class>  
+    </classes>
+</test>
+
+ 
+
+</suite>

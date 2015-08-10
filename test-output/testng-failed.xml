@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <listeners>
+    <listener class-name="com.sweety.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Test 2(failed)">
+    <classes>
+      <class name="com.sweety.testcases.VerifySubmenus">
+        <methods>
+          <include name="verifySubmenus" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sweety.testcases.VerifySubmenus -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+  <test name="Test 3(failed)">
+    <classes>
+      <class name="com.sweety.testcases.AddNewlevel">
+        <methods>
+          <include name="verifyAddNewlevel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sweety.testcases.AddNewlevel -->
+    </classes>
+  </test> <!-- Test 3(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

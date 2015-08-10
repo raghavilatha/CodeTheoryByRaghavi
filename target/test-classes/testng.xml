@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+<listeners>
+    <listener class-name="com.sweety.listener.TestsListenerAdapter" />
+</listeners>
+
+
+<test name="Test 1">
+
+    <classes>
+        <class name="com.sweety.testcases.VerifyLogin" ></class>  
+    </classes>
+</test>
+
+<test name="Test 2">
+
+<classes>
+        <class name="com.sweety.testcases.VerifySubmenus" ></class>  
+    </classes>
+</test>
+ 
+ <test name="Test 3">
+
+<classes>
+        <class name="com.sweety.testcases.AddNewlevel" ></class>  
+    </classes>
+</test>
+ 
+
+</suite>
