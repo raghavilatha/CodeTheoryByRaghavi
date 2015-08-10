@@ -1,4 +1,90 @@
-07/08/2015 14:59:00 devpinoyLogger *******Started navigateMoto********
-07/08/2015 14:59:00 devpinoyLogger Executing openBrowser
-07/08/2015 14:59:07 devpinoyLogger Unable to open the Browser
-07/08/2015 14:59:07 devpinoyLogger Fail
+10/08/2015 19:27:23 devpinoyLogger *******Started verifyLoginprocess********
+10/08/2015 19:27:23 devpinoyLogger Executing openBrowser
+10/08/2015 19:27:30 devpinoyLogger Pass
+10/08/2015 19:27:30 devpinoyLogger Pass
+10/08/2015 19:27:30 devpinoyLogger verifyLoginprocess..........openBrowser..................browserType
+10/08/2015 19:27:30 devpinoyLogger Executing navigate
+10/08/2015 19:27:34 devpinoyLogger Pass
+10/08/2015 19:27:34 devpinoyLogger Pass
+10/08/2015 19:27:34 devpinoyLogger verifyLoginprocess..........navigate..................testSiteName
+10/08/2015 19:27:34 devpinoyLogger Executing inputfromConfigurations
+10/08/2015 19:27:35 devpinoyLogger Pass
+10/08/2015 19:27:35 devpinoyLogger Pass
+10/08/2015 19:27:35 devpinoyLogger verifyLoginprocess..........inputfromConfigurations.........loginusername_id.........adminusername
+10/08/2015 19:27:35 devpinoyLogger Executing inputfromConfigurations
+10/08/2015 19:27:35 devpinoyLogger Pass
+10/08/2015 19:27:35 devpinoyLogger Pass
+10/08/2015 19:27:35 devpinoyLogger verifyLoginprocess..........inputfromConfigurations.........loginpassword_id.........adminpassword
+10/08/2015 19:27:35 devpinoyLogger Executing click
+10/08/2015 19:27:36 devpinoyLogger Pass
+10/08/2015 19:27:36 devpinoyLogger Pass
+10/08/2015 19:27:36 devpinoyLogger verifyLoginprocess..........click.........loginbutton_name.........
+10/08/2015 19:27:36 devpinoyLogger Executing assertEquals
+10/08/2015 19:27:36 devpinoyLogger Pass
+10/08/2015 19:27:36 devpinoyLogger Pass
+10/08/2015 19:27:36 devpinoyLogger verifyLoginprocess..........assertEquals.........successfullSignin_xpath.........signinMessage
+10/08/2015 19:27:36 devpinoyLogger Executing closeBrowser
+10/08/2015 19:27:39 devpinoyLogger Pass
+10/08/2015 19:27:39 devpinoyLogger Pass
+10/08/2015 19:27:39 devpinoyLogger verifyLoginprocess..........closeBrowser..................
+10/08/2015 19:27:39 devpinoyLogger ******verifyLoginprocess Finished******
+10/08/2015 19:27:39 devpinoyLogger *******Started verifySubmenus********
+10/08/2015 19:27:39 devpinoyLogger Executing openBrowser
+10/08/2015 19:27:46 devpinoyLogger Pass
+10/08/2015 19:27:46 devpinoyLogger Pass
+10/08/2015 19:27:46 devpinoyLogger verifySubmenus..........openBrowser..................browserType
+10/08/2015 19:27:46 devpinoyLogger Executing navigate
+10/08/2015 19:27:49 devpinoyLogger Pass
+10/08/2015 19:27:49 devpinoyLogger Pass
+10/08/2015 19:27:49 devpinoyLogger verifySubmenus..........navigate..................testSiteName
+10/08/2015 19:27:49 devpinoyLogger Executing inputfromConfigurations
+10/08/2015 19:27:49 devpinoyLogger Pass
+10/08/2015 19:27:49 devpinoyLogger Pass
+10/08/2015 19:27:49 devpinoyLogger verifySubmenus..........inputfromConfigurations.........loginusername_id.........adminusername
+10/08/2015 19:27:49 devpinoyLogger Executing inputfromConfigurations
+10/08/2015 19:27:49 devpinoyLogger Pass
+10/08/2015 19:27:49 devpinoyLogger Pass
+10/08/2015 19:27:49 devpinoyLogger verifySubmenus..........inputfromConfigurations.........loginpassword_id.........adminpassword
+10/08/2015 19:27:49 devpinoyLogger Executing click
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........click.........loginbutton_name.........
+10/08/2015 19:27:51 devpinoyLogger Executing assertEquals
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........assertEquals.........successfullSignin_xpath.........signinMessage
+10/08/2015 19:27:51 devpinoyLogger Executing assertEquals
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........assertEquals.........LevelsSidemenu_xpath.........Levels_linktext
+10/08/2015 19:27:51 devpinoyLogger Executing assertEquals
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........assertEquals.........ReportsSidemenu_xpath.........Reports_linktext
+10/08/2015 19:27:51 devpinoyLogger Executing click
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........click.........LevelsSidemenu_xpath.........
+10/08/2015 19:27:51 devpinoyLogger Executing assertEquals
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........assertEquals.........Levelspagetitle_xpath.........Levelspage_Title
+10/08/2015 19:27:51 devpinoyLogger Executing click
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger Pass
+10/08/2015 19:27:51 devpinoyLogger verifySubmenus..........click.........ReportsSidemenu_xpath.........
+10/08/2015 19:27:51 devpinoyLogger Executing assertEquals
+10/08/2015 19:27:51 devpinoyLogger Fail
+10/08/2015 19:27:51 devpinoyLogger Fail
+10/08/2015 19:27:52 devpinoyLogger *******Started verifyAddNewlevel********
+10/08/2015 19:27:52 devpinoyLogger Executing openBrowser
+10/08/2015 19:27:52 devpinoyLogger Pass
+10/08/2015 19:27:52 devpinoyLogger Pass
+10/08/2015 19:27:52 devpinoyLogger verifyAddNewlevel..........openBrowser..................browserType
+10/08/2015 19:27:52 devpinoyLogger Executing navigate
+10/08/2015 19:27:52 devpinoyLogger Pass
+10/08/2015 19:27:52 devpinoyLogger Pass
+10/08/2015 19:27:52 devpinoyLogger verifyAddNewlevel..........navigate..................testSiteName
+10/08/2015 19:27:52 devpinoyLogger Executing inputfromConfigurations
+10/08/2015 19:28:02 devpinoyLogger Element not found - loginusername_id
+10/08/2015 19:28:02 devpinoyLogger Fail
